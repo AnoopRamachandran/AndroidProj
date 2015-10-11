@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Cashless</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="_login">Login</string>
+    <string name="_CreateAccount">Create your Cashless Account</string>
+    <string name="_loginPage">Login to your Cashless Account</string>
+    <string name="_email">Email Address</string>
+    <string name="_password">Password</string>
+    <string name="_cancel">Cancel</string>
+    <string name="_referal">Enter your referral code</string>
+    <string name="_referal2">You need a referral code to register with Cashless</string>
+    <string name="_referralhint">Referral Code</string>
+
+    <string name="_fullName">Full Name</string>
+    <string name="_mobNumber">Mobile Number</string>
+    <string name="_emailAddr">Email Address</string>
+    <string name="_pwd">Password</string>
+
+    <string name="_editCreateAccount">Create your Account</string>
+    <string name="_editPersonal">Your Personal information is safe with us. Read our Privacy Policy to learn more.</string>
+
+    <string name="_btnverify">Verify</string>
+    <string name="_btnregister">Register</string>
+
+    <string name="_txtMobile">Verify Mobile Number</string>
+    <string name="_txtOTP">Please enter the One Time Password(OTP) sent to your mobile number</string>
+    <string name="_OTP">OTP</string>
+
+    <string name="_btnGenerate">Generate</string>
+
+    <string name="_uniqID">Create your own unique ID Number</string>
+    <string name="_uniqID2">Create your unique ID which you can use to pay at any cashless enabled POS center</string>
+    <string name="_uniq">Unique ID</string>
+    <string name="_Back">Back</string>
+
+    <string name="_btnDone">Done</string>
+    <string name="_Line1">Address Line 1</string>
+    <string name="_Line2">Address Line 2</string>
+    <string name="_City">City</string>
+    <string name="_Pincode">Pincode</string>
+    <string name="_AddrInf">Address Information</string>
+    <string name="_authoriz">One of our authorized representative will do your door step verification
+    with in the next...</string>
+
+
+
+
+</resources>

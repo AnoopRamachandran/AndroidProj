@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_editCreateAccount"
+        android:textColor="#FF5722"
+        android:textSize="@dimen/Text_SizeLarge"
+        android:id="@+id/_txtreferral1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_editPersonal"
+        android:layout_below="@+id/_txtreferral1"
+        android:textColor="#9E9E9E"
+        android:textSize="@dimen/Text_mini"
+        android:id="@+id/_txtreferral2"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/editText"
+        android:ems="15"
+        android:layout_below="@+id/_txtreferral2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:hint="@string/_fullName"
+        android:background="@drawable/edit_style"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="15"
+        android:id="@+id/editPwd"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/_mobNumber"
+        android:background="@drawable/edit_style"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:id="@+id/editEmailAddress"
+        android:layout_below="@+id/editPwd"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/_emailAddr"
+        android:background="@drawable/edit_style"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:id="@+id/editpwd2"
+        android:layout_below="@+id/editEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/_pwd"
+        android:background="@drawable/edit_style"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textAllCaps="false"
+        android:text="@string/_btnregister"
+        android:id="@+id/_btnRegister"
+        android:layout_below="@+id/editpwd2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_shape"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_cancel"
+        android:id="@+id/_textCancel"
+        android:textSize="@dimen/Text_Size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF5722"
+        android:layout_marginBottom="15dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F5F5F5"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_login"
+        android:textAllCaps="false"
+        android:id="@+id/_btnLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:ems="7"
+        android:layout_marginTop="95dp"
+        android:textColor="#FAFAFA"
+        android:background="#FF5722"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_CreateAccount"
+        android:textAllCaps="false"
+        android:id="@+id/_btnAccount"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:ems="15"
+        android:layout_marginTop="95dp"
+        android:textColor="#FAFAFA"
+        android:background="#FF5722"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FAFAFA"
+        android:src="@drawable/_cashlesslogomain"/>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_uniqID"
+        android:textColor="#FF5722"
+        android:textSize="@dimen/Text_SizeLarge"
+        android:id="@+id/_txtreferral1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_uniqID2"
+        android:layout_below="@+id/_txtreferral1"
+        android:textColor="#9E9E9E"
+        android:textSize="@dimen/Text_mini"
+        android:id="@+id/_txtreferral2"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/_editReferral"
+        android:ems="15"
+        android:layout_below="@+id/_txtreferral1"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:hint="@string/_uniq"
+        android:background="@drawable/edit_style"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textAllCaps="false"
+        android:text="@string/_btnGenerate"
+        android:id="@+id/_btnGenerate"
+        android:layout_below="@+id/_editReferral"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_shape"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_Back"
+        android:id="@+id/_textCancel"
+        android:textSize="@dimen/Text_Size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF5722"
+        android:layout_marginBottom="15dp"/>
+
+</RelativeLayout>
